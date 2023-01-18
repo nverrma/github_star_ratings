@@ -50,3 +50,11 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
+  gem 'rspec-rails'
+  gem 'shoulda-matchers', '~> 5.0'
+  gem 'webmock'
+end
+
